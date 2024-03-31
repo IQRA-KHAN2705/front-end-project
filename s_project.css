@@ -1,0 +1,147 @@
+h1{
+    color: brown;
+    background-color: rgb(231, 216, 168);
+    margin: 0px;
+    padding: 100px;
+    
+
+
+}
+.top{
+color: darkblue;
+background-color: aquamarine;
+padding: 40px;
+margin:0px;
+
+
+
+margin-inline-start: 00PX;
+margin-inline-end: 00px;
+
+
+}
+
+  
+h2{
+    size: 300px;
+    color: chartreuse;
+    padding: 0px;
+    text-align-last:center;
+
+    font-size: 50px;
+      padding: 8px 12px; 
+      width: 500px;
+}
+.container {
+    position:relative;
+    text-align-last:center;
+    font-size: 50px;
+    
+    padding: 100px;
+
+    background-image: url(pexels-abdulmeilk-aldawsari-36704.jpg     );
+    background-size:contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: auto;
+    color: rgb(105, 16, 34);
+    font-weight: bolder;
+
+
+   
+  }
+  
+  #se {  
+    position:relative;
+    z-index: 1;
+    font-size: 20px;
+    padding: 40px 80px; 
+    width: 600px; 
+    margin-top: 100px;
+    border: 80px;
+    border-color: black;
+    text-align-last: center;
+    background:#f1f1f1;
+    color: blue;
+
+  }
+
+p1{
+    padding: 200px;
+    margin: 10px;
+    border-image: 10px;
+/*    background-image: url('pexels-abdulmeilk-aldawsari-36704.jpg');*/
+    background-attachment:local;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+
+
+
+/*
+border-top: 10px solid black;
+border-bottom: 10px solid rgba(233, 240, 236, 0.979);
+border-left: 10px solid black;
+border-right: 10px solid black;
+*/
+
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the content */
+  article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  
